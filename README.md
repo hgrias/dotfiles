@@ -11,13 +11,13 @@ $ git clone git@github.com:hgrias/dotfiles.git
 $ cd dotfiles
 ```
 
-Then run the install script to install needed dependencies and create the required symlinks via `stow`.
+Run the install script to install needed dependencies.
 
 ```
 $ sh install.sh
 ```
 
-If you already have the dependencies installed, just run the following to create the symlinks:
+Create the required symlinks via `stow`:
 
 ```
 stow .
