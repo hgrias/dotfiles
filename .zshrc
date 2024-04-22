@@ -77,7 +77,15 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git kubectl minikube colored-man-pages colorize pip python brew macos zsh-autosuggestions zsh-syntax-highlighting zsh-docker-aliases)
+plugins=(git 
+         colored-man-pages 
+         zsh-autosuggestions 
+         zsh-syntax-highlighting
+         colorize 
+         pip 
+         python 
+         you-should-use
+        )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -132,11 +140,3 @@ if [ -f '/Users/harrisongrias/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/h
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/harrisongrias/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/harrisongrias/google-cloud-sdk/completion.zsh.inc'; fi
-
-# pnpm
-export PNPM_HOME="/Users/harrisongrias/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
