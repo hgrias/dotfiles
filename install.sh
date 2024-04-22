@@ -45,6 +45,9 @@ eval "brew install gh"
 printf "\n${MAGENTA}Installing stow...${NORMAL}\n"
 eval "brew install stow"
 
+printf "\n${MAGENTA}Installing vim...${NORMAL}\n"
+eval "brew install vim"
+
 # ---------- OhMyZsh Plugins and Themes ---------- #
 printf "\n${MAGENTA}Installing ZSH autosuggestions plugin...${NORMAL}\n"
 eval "git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions"
