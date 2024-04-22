@@ -68,8 +68,6 @@ eval "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh |
 eval "source ~/.zshrc"
 eval "nvm install --lts"
 
-# Run stow to set the symlinks
-eval "stow ."
 
 # Open links for apps that can't be downloaded via brew cask
 printf "\n${BLUE}Opening links for apps to download...${NORMAL}\n"
