@@ -135,8 +135,3 @@ export PATH=/Library/PostgreSQL/15/bin:$PATH
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/harrisongrias/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/harrisongrias/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/harrisongrias/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/harrisongrias/google-cloud-sdk/completion.zsh.inc'; fi
