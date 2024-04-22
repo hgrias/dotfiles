@@ -1,0 +1,7 @@
+[user]
+	name = Harrison Grias
+	email = harrison.grias@gmail.com
+[core]
+	editor = vim
+[sequence]
+	editor = rebase-editor -c "^M,^G,^c"
