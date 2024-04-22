@@ -67,10 +67,11 @@ eval "git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUS
 # Install NVM
 printf "\n${GREEN}Installing NVM...${NORMAL}\n"
 eval "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash"
-# Refresh ZSH config
-eval "source ~/.zshrc"
-eval "nvm install --lts"
 
+# Refresh ZSH config
+# eval "source ~/.zshrc"
+
+eval "nvm install --lts"
 
 # Open links for apps that can't be downloaded via brew cask
 printf "\n${BLUE}Opening links for apps to download...${NORMAL}\n"
