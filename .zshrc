@@ -158,3 +158,6 @@ _fzf_compgen_dir() {
 # fzf git bindings
 source ~/fzf-git.sh/fzf-git.sh
 
+# ----- Eza (better ls) -----
+
+alias ls="eza --color=always --long --git --no-filesize --icons=always --no-user --no-permissions"
