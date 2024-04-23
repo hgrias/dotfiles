@@ -47,14 +47,19 @@ stow .
 - [XCode Command Line Tools](https://developer.apple.com/xcode/downloads/)
 - [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
-- [Spaceship Prompt for ZSH](https://github.com/spaceship-prompt/spaceship-prompt#oh-my-zsh)
-- [Trash](https://github.com/sindresorhus/trash-cli)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-completions](https://github.com/zsh-users/zsh-completions)
 - [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use)
-- [rupa’s z](https://github.com/rupa/z/)
-- [rebase-editor](https://github.com/hgrias/rebase-editor)
+- [rebase-editor - better rebasing tool](https://github.com/sjurba/rebase-editor)
+- [bat - better cat](https://github.com/sharkdp/bat)
+- [fzf - command line fuzzy finder](https://github.com/junegunn/fzf)
+- [stow - symlink farm manager](https://www.gnu.org/software/stow/)
+- [fd - find alternative](https://github.com/sharkdp/fd)
+- [eza - better ls](https://github.com/eza-community/eza)
+- [git-delta - better git diff](https://github.com/dandavison/delta)
+- [zoxide - better cd](https://github.com/ajeetdsouza/zoxide)
+- [fzf-git - zsh key bindings for git powered by fzf](https://github.com/junegunn/fzf-git.sh)
 
 </details>
 
