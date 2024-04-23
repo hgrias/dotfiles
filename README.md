@@ -36,7 +36,6 @@ stow .
 <summary>Package Managers</summary>
 
 - [NVM](https://github.com/creationix/nvm/)
-- [Yarn](https://yarnpkg.com/en/)
 - [Homebrew](http://brew.sh/)
 
 </details>
@@ -112,11 +111,6 @@ stow .
 
 </details>
 
-<details>
-<summary>Miscellaneous</summary>
-
-- [Spotify](https://www.spotify.com/us/download/mac/)
-<!-- - [Rocket](http://matthewpalmer.net/rocket/) -->
 
 </details>
 
