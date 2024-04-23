@@ -114,7 +114,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
-alias sb="supabase"
 
 # Get latest git branches on local
 alias gbl="git for-each-ref --sort=committerdate refs/heads/ --format='%(color: red)%(committerdate:short) %(color: cyan)%(refname:short)'"
@@ -128,10 +127,11 @@ alias gbl="git for-each-ref --sort=committerdate refs/heads/ --format='%(color: 
 # Iterm2 Shell Integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-# For PostgreSQL
-export PATH=/Library/PostgreSQL/15/bin:$PATH
+# Add brew to path
+export PATH=/opt/homebrew/bin:$PATH
 
-# For Pyenv
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+# fzf defaults
+export FZF_DEFAULT_OPTS="--height 95% --layout=reverse"
 
+# set up fzf key bidnings and fuzzy completion
+eval "$(fzf --zsh)"
