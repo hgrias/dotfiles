@@ -23,6 +23,11 @@ Create the required symlinks via `stow`:
 stow .
 ```
 
+## Reference
+
+- [Terminal Setup - Blog Post](https://www.josean.com/posts/terminal-setup)
+- [7 Great Tools - Video](https://www.youtube.com/watch?v=mmqDYw9C30I&t=678s)
+
 ## Things
 
 <details>
