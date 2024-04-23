@@ -35,10 +35,6 @@ fi
 
 printf "\n${MAGENTA}Installing other brew casks...${NORMAL}\n"
 
-# Install Oh My Zsh
-printf "\n${BLUE}Installing Oh My Zsh...${NORMAL}\n"
-eval "sh -c '$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)'"
-
 printf "\n${MAGENTA}Installing github CLI...${NORMAL}\n"
 eval "brew install gh"
 
@@ -51,7 +47,18 @@ eval "brew install vim"
 printf "\n${MAGENTA}Installing fzf...${NORMAL}\n"
 eval "brew install fzf"
 
-# ---------- OhMyZsh Plugins and Themes ---------- #
+printf "\n${MAGENTA}Installing fd...${NORMAL}\n"
+eval "brew install fd"
+
+# ---------- Cloning from Github ---------- #
+
+printf "\n${BLUE}Cloning fzf-git...${NORMAL}\n"
+eval "git clone https://github.com/junegunn/fzf-git.sh.git ${ZSH_CUSTOM:-~/fzf-git}"
+
+# ---------- Install OhMyZsh with Plugins and Themes ---------- #
+printf "\n${BLUE}Installing Oh My Zsh...${NORMAL}\n"
+eval "sh -c '$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)'"
+
 printf "\n${MAGENTA}Installing ZSH autosuggestions plugin...${NORMAL}\n"
 eval "git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions"
 
@@ -67,10 +74,6 @@ eval "git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUS
 # Install NVM
 printf "\n${GREEN}Installing NVM...${NORMAL}\n"
 eval "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash"
-
-# Refresh ZSH config
-# eval "source ~/.zshrc"
-
 eval "nvm install --lts"
 
 # Open links for apps that can't be downloaded via brew cask
