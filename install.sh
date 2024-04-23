@@ -59,6 +59,15 @@ eval "brew install git-delta"
 printf "\n${MAGENTA}Installing eza...${NORMAL}\n"
 eval "brew install eza"
 
+printf "\n${MAGENTA}Installing tldr...${NORMAL}\n"
+eval "brew install tldr"
+
+printf "\n${MAGENTA}Installing thefuck...${NORMAL}\n"
+eval "brew install thefuck"
+
+printf "\n${MAGENTA}Installing zoxide...${NORMAL}\n"
+eval "brew install zoxide"
+
 # ---------- Cloning from Github ---------- #
 
 printf "\n${BLUE}Cloning fzf-git...${NORMAL}\n"
