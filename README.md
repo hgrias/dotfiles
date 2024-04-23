@@ -27,6 +27,8 @@ stow .
 
 - [Terminal Setup - Blog Post](https://www.josean.com/posts/terminal-setup)
 - [7 Great Tools - Video](https://www.youtube.com/watch?v=mmqDYw9C30I&t=678s)
+- [Inspiration - Brittany Chiang](https://github.com/bchiang7/dotfiles)
+- [Inspiration - Josean](https://github.com/josean-dev/dev-environment-files)
 
 ## Things
 
