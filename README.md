@@ -23,13 +23,6 @@ Create the required symlinks via `stow`:
 stow .
 ```
 
-## Reference
-
-- [Terminal Setup - Blog Post](https://www.josean.com/posts/terminal-setup)
-- [7 Great Tools - Video](https://www.youtube.com/watch?v=mmqDYw9C30I&t=678s)
-- [Inspiration - Brittany Chiang](https://github.com/bchiang7/dotfiles)
-- [Inspiration - Josean](https://github.com/josean-dev/dev-environment-files)
-
 ## Things
 
 <details>
@@ -121,3 +114,10 @@ stow .
 [Adding A New SSH Key to Your Github Account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
 [Signing GitHub commits with GPG](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits)
+
+## Reference
+
+- [Terminal Setup - Blog Post](https://www.josean.com/posts/terminal-setup)
+- [7 Great Tools - Video](https://www.youtube.com/watch?v=mmqDYw9C30I&t=678s)
+- [Inspiration - Brittany Chiang](https://github.com/bchiang7/dotfiles)
+- [Inspiration - Josean](https://github.com/josean-dev/dev-environment-files)
