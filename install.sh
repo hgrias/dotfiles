@@ -53,6 +53,9 @@ eval "brew install fd"
 printf "\n${MAGENTA}Installing bat...${NORMAL}\n"
 eval "brew install bat"
 
+printf "\n${MAGENTA}Installing git-delta...${NORMAL}\n"
+eval "brew install git-delta"
+
 # ---------- Cloning from Github ---------- #
 
 printf "\n${BLUE}Cloning fzf-git...${NORMAL}\n"
